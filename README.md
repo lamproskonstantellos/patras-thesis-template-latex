@@ -1,0 +1,1 @@
+This LaTeX template is designed for writing your Diploma Thesis in the Department of Electrical and Computer Engineering at the University of Patras. It's compatible with any LaTeX editor, but be sure to select the XeLaTeX compiler.
