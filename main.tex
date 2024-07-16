@@ -1,0 +1,105 @@
+\documentclass[11pt]{article}
+
+% Language setting
+\usepackage[greek, english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[a4paper,top=1in,bottom=1in,left=1.25in,right=1.25in]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage[]{graphicx} % use draft option to reduce compile times
+\usepackage[export]{adjustbox}
+\usepackage[hidelinks, breaklinks]{hyperref}
+\usepackage{float}
+\usepackage[nameinlink, capitalize]{cleveref} % provides the \cref command
+
+\usepackage{titlesec}
+\titleformat{\paragraph}[leftmargin]
+{\normalfont\footnotesize
+	%\titlerule*[.6em]{\bfseries.}
+	%\vspace{6pt}%
+	\sffamily\bfseries\filleft}
+{\thesection}{.5em}{}
+\titlespacing{\paragraph}
+{5.25pc}{0pt}{0.75pc}
+
+\usepackage[style=ieee]{biblatex}
+\addbibresource{thesis.bib}
+
+\DeclareFieldFormat{urldate}{} % no access dates
+
+% Font (noto)
+%\usepackage[sfdefault]{noto}
+%\usepackage[LGR, T1]{fontenc}
+
+\usepackage{fontspec}
+\setmainfont{Noto Sans}
+\usepackage{microtype}
+\usepackage{indentfirst}
+\usepackage{pdfpages}
+\usepackage[mode=match]{siunitx}
+
+% figure captions 
+\usepackage[figurename=Fig.,tablename=Tab.]{caption}
+\usepackage{subcaption}
+
+% code
+\usepackage{xcolor}
+\usepackage{listings}
+\DeclareCaptionLabelSeparator{ieee}{.\quad}
+\captionsetup{labelsep=ieee}
+
+%\renewcommand{\figurename}{Fig.}
+%\addto\captionsenglish{\renewcommand{\figurename}{Fig.}}
+%\addto\captionsenglish{\renewcommand{\figureautorefname}{Fig.}}
+\renewcommand{\figureautorefname}{Fig.}
+\usepackage[acronym]{glossaries}
+
+%%%%%%%%%%%%%%% ACRONYMS %%%%%%%%%%%%%%%%%
+\makeglossaries
+\newacronym{cg}{CG}{Computer Graphics}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\renewcommand{\figureautorefname}{Fig.}
+
+\includepdf[pages={-}]{cover.pdf}
+
+
+%%%%%%%%%%%%%%% PREFACE %%%%%%%%%%%%%%%%%%
+\input{content/acknowledgements}
+\newpage
+\input{content/abstract-eng}
+\newpage
+\input{content/abstract-gr}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+\setglossarystyle{index}
+\printglossary[type=\acronymtype,nonumberlist]
+\newpage
+
+\input{content/introduction}
+
+
+
+
+\newpage
+\sloppy 
+\printbibliography
+
+\end{document}
