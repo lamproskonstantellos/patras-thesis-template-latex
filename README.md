@@ -1,13 +1,13 @@
-# Diploma Thesis Template – University of Patras (ECE)
+# Diploma Thesis Template (equivalent to Master’s Thesis) – University of Patras (ECE)
 
-This repository contains a **LaTeX template** for preparing a Diploma Thesis at the  
+This repository contains a **LaTeX template** for preparing a Diploma Thesis (equivalent to a Master’s Thesis) at the  
 **Department of Electrical and Computer Engineering, University of Patras**.  
 
 It is fully compatible with any LaTeX editor, but you **must use the XeLaTeX compiler** to support Greek and English text properly.
 
 ---
 
-##  Repository Structure
+## Repository Structure
 
 ```
 ├── main.tex              # Main thesis file (compile this one with XeLaTeX)
@@ -27,7 +27,7 @@ You can extend this by creating more chapter `.tex` files (e.g., `chapter2.tex`,
 
 ---
 
-##  How to Compile
+## How to Compile
 
 ### 1. Requirements
 - A full TeX distribution (e.g., [TeX Live](https://www.tug.org/texlive/) or [MiKTeX](https://miktex.org/))  
@@ -47,7 +47,7 @@ xelatex main.tex
 
 ---
 
-##  Features
+## Features
 - Predefined **cover page** in both Greek and English  
 - Templates for:
   - Greek & English abstracts
@@ -59,7 +59,7 @@ xelatex main.tex
 
 ---
 
-## 🛠️ Usage
+## Usage
 1. Replace placeholders in `cover.pdf` (title, name, supervisor, year).  
 2. Write your thesis content in the provided `.tex` files or add new chapters.  
 3. Insert your references in `thesis.bib`.  
@@ -67,13 +67,15 @@ xelatex main.tex
 
 ---
 
-##  License
+## License
 This template is provided under the **MIT License**.  
 You may freely use, adapt, and share it.
 
 ---
 
-##  Acknowledgments
-This template was created by **Lampros Konstantellos** in 2024 for Diploma Theses in the  
+## Acknowledgments
+This template was created by **Lampros Konstantellos** in 2024, who is now a graduate of the  
 **Department of Electrical and Computer Engineering, University of Patras**.  
-It is based on departmental formatting guidelines and contributions from students and faculty.
+
+It follows the official departmental guidelines and best practices for thesis writing.  
+It is also based on contributions from students and faculty of the department.
