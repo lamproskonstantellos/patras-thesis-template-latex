@@ -1,7 +1,7 @@
-# Diploma Thesis Template (equivalent to Master's Thesis) – University of Patras (ECE)
+# Thesis Template – University of Patras (ECE)
 
-A **LaTeX template** for preparing a Diploma Thesis (equivalent to a Master's Thesis) at the
-**Department of Electrical and Computer Engineering (ECE), University of Patras**.
+A **LaTeX template** for preparing a Thesis at the
+**[Department of Electrical and Computer Engineering (ECE), University of Patras](https://www.ece.upatras.gr/)**.
 
 The template is preconfigured with the formatting, fonts, bibliography style, and bilingual
 (Greek / English) support that the department's thesis guidelines expect, so you can focus on
@@ -31,6 +31,7 @@ writing your thesis instead of fighting LaTeX.
   - [Cross-references](#cross-references)
 - [Packages Used](#packages-used)
 - [Troubleshooting](#troubleshooting)
+- [Contact](#contact)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -212,7 +213,7 @@ Then include it in `main.tex` after the introduction:
 
 > The template uses the `article` document class, so top-level structure is `\section` /
 > `\subsection` / `\subsubsection` rather than `\chapter`. This matches the department's
-> recommended layout for diploma theses.
+> recommended layout for theses.
 
 ### Figures
 
@@ -334,6 +335,14 @@ long chapters into separate files while drafting.
 
 ---
 
+## Contact
+
+If you have any questions, suggestions, or run into issues with the template, please reach
+out to **Lampros Konstantellos** on
+[LinkedIn](https://www.linkedin.com/in/lampros-konstantellos/).
+
+---
+
 ## License
 
 This template is released under the **[MIT License](LICENSE)**.
@@ -355,9 +364,6 @@ In short: it's a template — take it, adapt it, and write your thesis.
 ## Acknowledgments
 
 This template was created by **Lampros Konstantellos** in 2024, a graduate of the
-**Department of Electrical and Computer Engineering, University of Patras**.
+**[Department of Electrical and Computer Engineering, University of Patras](https://www.ece.upatras.gr/)**.
 
-It follows the official departmental guidelines and best practices for thesis writing,
-and incorporates contributions and feedback from students and faculty of the department.
-
-Contributions, fixes, and improvements via pull requests or issues are welcome.
+It follows the official departmental guidelines and best practices for thesis writing.
