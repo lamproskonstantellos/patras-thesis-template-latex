@@ -1,5 +1,9 @@
 # Thesis Template – University of Patras (ECE)
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Made with LaTeX](https://img.shields.io/badge/made%20with-LaTeX-1f425f.svg?logo=latex)](https://www.latex-project.org/)
+[![Compiler: XeLaTeX](https://img.shields.io/badge/compiler-XeLaTeX-blue.svg)](https://tug.org/xetex/)
+
 A **LaTeX template** for preparing a Thesis at the
 **[Department of Electrical and Computer Engineering (ECE), University of Patras](https://www.ece.upatras.gr/)**.
 
